@@ -1,0 +1,251 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+
+  /* TSE Design System - Brand Colors */
+  --tse-primary:       #55B7AE;
+  --tse-primary-hover: #3EA39A;
+  --tse-primary-light: #7FCAC4;
+  --tse-primary-bg:    #F0FAF9;
+  --tse-accent-cyan:   #4FD1C5;
+  --tse-accent-blue:   #3B82F6;
+
+  /* TSE Neutral Colors */
+  --tse-neutral-900:   #2E3A44;
+  --tse-neutral-800:   #3F4A54;
+  --tse-neutral-700:   #5A6570;
+  --tse-neutral-600:   #7A8792;
+  --tse-neutral-500:   #A0A8AF;
+  --tse-neutral-300:   #D9DEE3;
+  --tse-neutral-100:   #F5F7F9;
+
+  /* TSE Semantic */
+  --tse-success:  #22C55E;
+  --tse-warning:  #F59E0B;
+  --tse-error:    #EF4444;
+
+  /* Mapped to Tailwind primitives */
+  --background:          #ffffff;
+  --foreground:          #2E3A44;
+  --card:                #ffffff;
+  --card-foreground:     #2E3A44;
+  --popover:             #ffffff;
+  --popover-foreground:  #2E3A44;
+  --primary:             #55B7AE;
+  --primary-foreground:  #ffffff;
+  --secondary:           #4FD1C5;
+  --secondary-foreground:#ffffff;
+  --muted:               #F5F7F9;
+  --muted-foreground:    #7A8792;
+  --accent:              #7FCAC4;
+  --accent-foreground:   #2E3A44;
+  --destructive:         #EF4444;
+  --destructive-foreground: #ffffff;
+  --border:              #D9DEE3;
+  --input:               transparent;
+  --input-background:    #F5F7F9;
+  --switch-background:   #D9DEE3;
+  --font-weight-medium:  500;
+  --font-weight-normal:  400;
+  --ring:                #55B7AE;
+  --chart-1:             #55B7AE;
+  --chart-2:             #4FD1C5;
+  --chart-3:             #3EA39A;
+  --chart-4:             #7FCAC4;
+  --chart-5:             #3B82F6;
+  --radius:              0.75rem;
+  --sidebar:             #F5F7F9;
+  --sidebar-foreground:  #2E3A44;
+  --sidebar-primary:     #55B7AE;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent:      #F0FAF9;
+  --sidebar-accent-foreground:  #2E3A44;
+  --sidebar-border:      #D9DEE3;
+  --sidebar-ring:        #55B7AE;
+}
+
+.dark {
+  --background:         #1a2128;
+  --foreground:         #F5F7F9;
+  --card:               #242d35;
+  --card-foreground:    #F5F7F9;
+  --popover:            #242d35;
+  --popover-foreground: #F5F7F9;
+  --primary:            #55B7AE;
+  --primary-foreground: #ffffff;
+  --secondary:          #2E3A44;
+  --secondary-foreground:#F5F7F9;
+  --muted:              #2E3A44;
+  --muted-foreground:   #A0A8AF;
+  --accent:             #3F4A54;
+  --accent-foreground:  #F5F7F9;
+  --destructive:        #EF4444;
+  --destructive-foreground: #ffffff;
+  --border:             #3F4A54;
+  --input:              #3F4A54;
+  --ring:               #55B7AE;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --sidebar:            #1a2128;
+  --sidebar-foreground: #F5F7F9;
+  --sidebar-primary:    #55B7AE;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent:     #2E3A44;
+  --sidebar-accent-foreground:  #F5F7F9;
+  --sidebar-border:     #3F4A54;
+  --sidebar-ring:       #55B7AE;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* TSE brand utilities */
+  --color-tse-primary:       var(--tse-primary);
+  --color-tse-primary-hover: var(--tse-primary-hover);
+  --color-tse-primary-light: var(--tse-primary-light);
+  --color-tse-primary-bg:    var(--tse-primary-bg);
+  --color-tse-accent-cyan:   var(--tse-accent-cyan);
+  --color-tse-accent-blue:   var(--tse-accent-blue);
+  --color-tse-dark:          var(--tse-neutral-900);
+  --color-tse-slate:         var(--tse-neutral-800);
+  --color-tse-steel:         var(--tse-neutral-700);
+  --color-tse-gray:          var(--tse-neutral-600);
+  --color-tse-mid:           var(--tse-neutral-500);
+  --color-tse-light:         var(--tse-neutral-300);
+  --color-tse-bg:            var(--tse-neutral-100);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+  }
+
+  /* Focus visible for keyboard accessibility */
+  :focus-visible {
+    outline: 2px solid var(--tse-primary);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* Skip to main content link */
+  .skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: 9999;
+    padding: 8px 16px;
+    background: var(--tse-primary);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 0 8px 0;
+  }
+  .skip-link:focus {
+    top: 0;
+  }
+
+  /* Heading font (Poppins) */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    color: var(--tse-neutral-900);
+    line-height: 1.25;
+  }
+
+  /* Type scale based on design system */
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 3rem); /* 40-48px */
+    font-weight: 700;
+    line-height: 1.15;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 4vw, 2.5rem); /* 32-40px */
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem); /* 20-24px */
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  h4 {
+    font-size: 1.25rem; /* 20px */
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  label {
+    font-size: 0.9375rem;
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  button {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  input, textarea, select {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+  }
+
+  p {
+    line-height: 1.75;
+    color: var(--tse-neutral-700);
+  }
+}
