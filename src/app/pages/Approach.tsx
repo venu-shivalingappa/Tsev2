@@ -188,9 +188,7 @@ export default function Approach() {
             <p className="text-[#A0A8AF] text-xl mb-4">
               We don't just build and walk away. Tech Solve Engine operates as a long-term technology partner, supporting your environment through continuous evolution and growth.
             </p>
-            <p className="text-[#7FCAC4] font-semibold text-lg">
-              Our architecture is designed to support 3–5 years of business growth without requiring disruptive overhauls.
-            </p>
+            <p className="text-[#7FCAC4] font-semibold text-lg">Our architecture is designed to support 5–7 years of business growth without requiring disruptive overhauls.</p>
           </motion.div>
         </div>
       </section>

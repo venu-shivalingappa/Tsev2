@@ -336,7 +336,7 @@ export default function Home() {
                   </motion.div>
                   <div>
                     <div className="text-white text-xs font-semibold leading-tight">99.9% Uptime</div>
-                    <div className="text-[#7FCAC4] text-[10px] mt-0.5">Monitored 24/7</div>
+                    
                   </div>
                 </motion.div>
 
@@ -583,9 +583,7 @@ export default function Home() {
               </ol>
 
               <div className="mt-8 p-5 bg-white rounded-xl border-l-4 border-[#55B7AE] shadow-sm">
-                <p className="text-[#2E3A44] font-medium">
-                  Our architecture is designed to support 3–5 years of business growth without disrupting operations.
-                </p>
+                <p className="text-[#2E3A44] font-medium">Our architecture is designed to support 5–7 years of business growth without disrupting operations.</p>
               </div>
 
               <div className="mt-6">
