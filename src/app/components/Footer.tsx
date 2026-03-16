@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Globe } from 'lucide-react';
-import tseLogo from 'figma:asset/e931ab4c03f17ef1b0518c12ce1dd505e2334af3.png';
+import tseLogo from '../../assets/logo.png';
 
 const footerNav = {
   company: [

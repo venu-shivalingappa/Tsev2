@@ -18,7 +18,7 @@ import {
   Server,
 } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import tseLogo from 'figma:asset/e931ab4c03f17ef1b0518c12ce1dd505e2334af3.png';
+import tseLogo from '../../assets/e931ab4c03f17ef1b0518c12ce1dd505e2334af3.png';
 
 export default function Home() {
   return (
