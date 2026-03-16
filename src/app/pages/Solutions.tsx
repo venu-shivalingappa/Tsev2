@@ -377,7 +377,7 @@ const solutions = [
   {
     icon: FileCheck,
     title:
-      "Industrial & OT Security — Securing Industrial Technology",
+      "Industrial & OT Security",
     description:
       "Robust security for industrial systems with OS hardening, automation protection, and embedded systems security.",
     capabilities: [

@@ -934,6 +934,11 @@ const services = [
     title: 'Security & Compliance',
     description: 'ISO 27001 readiness, governance frameworks, and compliance advisory for organizations.',
   },
+  {
+    icon: Shield,
+    title: 'Industrial & OT Security',
+    description: 'Robust security for industrial systems with OS hardening, automation protection, and embedded systems security.',
+  },
 ];
 
 const approachSteps = [
@@ -984,7 +989,7 @@ const whyTSE = [
   {
     icon: Network,
     title: 'Long-Term Thinking',
-    description: 'Our architecture supports 3–5 years of growth without requiring disruptive rebuilds.',
+    description: 'Our architecture supports 5–7 years of growth without requiring disruptive rebuilds.',
   },
   {
     icon: Globe,
