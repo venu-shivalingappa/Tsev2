@@ -50,7 +50,7 @@ export default function Footer() {
             {/* Social links */}
             <div className="flex items-center gap-3 mt-6" aria-label="Social media links">
               <a
-                href="https://www.linkedin.com"
+                href="https://in.linkedin.com/company/techsolveengine"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Tech Solve Engine on LinkedIn (opens in new tab)"
@@ -139,23 +139,23 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="tel:+91XXXXXXXXXX"
+                    href="tel:+911800203295"
                     className="flex items-start gap-3 text-sm text-[#A0A8AF] hover:text-[#55B7AE] transition-colors group"
                   >
                     <Phone size={16} className="mt-0.5 shrink-0 group-hover:text-[#55B7AE]" aria-hidden="true" />
-                    <span>+91 XXX XXX XXXX</span>
+                    <span>1800 203 295</span>
                   </a>
                 </li>
                 <li className="flex items-start gap-3 text-sm text-[#A0A8AF]">
                   <MapPin size={16} className="mt-0.5 shrink-0" aria-hidden="true" />
-                  <span>India</span>
+                  <span>#1st Floor, 2027, 60 Feet Rd, Raghuvanahalli, Bangalore City Municipal Corporation Layout, Bengaluru, Karnataka 560109</span>
                 </li>
               </ul>
             </address>
 
             <div className="mt-8 p-4 bg-[#3F4A54] rounded-xl">
               <p className="text-xs text-[#A0A8AF] mb-1 font-medium uppercase tracking-wide">Office Hours</p>
-              <p className="text-sm text-[#D9DEE3]">Mon – Fri, 9:00 AM – 6:00 PM IST</p>
+              <p className="text-sm text-[#D9DEE3]">Mon – Fri, 9:30 AM – 6:30 PM IST</p>
             </div>
           </div>
         </div>

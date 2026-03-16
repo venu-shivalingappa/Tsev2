@@ -2,11 +2,11 @@
 
 A modern, professional company website for TECH SOLVE ENGINE (TSE), a strategic technology partner specializing in designing, building, securing, and operating technology infrastructure for businesses.
 
-## Overview
+## 🚀 Overview
 
 TECH SOLVE ENGINE positions itself as an engineering-driven technology partner (not a generic IT services company) targeting founders, CEOs, CTOs, CIOs, and enterprise decision makers.
 
-## Features
+## ✨ Features
 
 - **Multi-page Architecture**: Built with React Router for seamless navigation
 - **Professional Design**: Minimal aesthetic with large typography and clean layouts
@@ -14,7 +14,7 @@ TECH SOLVE ENGINE positions itself as an engineering-driven technology partner (
 - **Responsive**: Mobile-first design that works across all devices
 - **Performance Optimized**: Fast loading and smooth animations
 
-## Pages
+## 📄 Pages
 
 - **Home**: Hero section with animated circuit graphics, trust indicators, services overview, approach, case studies, security features, global expansion, and CTA
 - **Approach**: Detailed methodology and engineering practices
@@ -25,7 +25,7 @@ TECH SOLVE ENGINE positions itself as an engineering-driven technology partner (
 - **About**: Company background and team
 - **Contact**: Get in touch form and information
 
-## Design System
+## 🎨 Design System
 
 ### Colors
 - **Primary Teal**: `#55B7AE` - Brand accent and CTAs
@@ -38,7 +38,7 @@ TECH SOLVE ENGINE positions itself as an engineering-driven technology partner (
 - **Body Text**: Inter (Regular 400)
 - **Large Typography**: Emphasizing key messages
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **React** - UI framework
 - **TypeScript** - Type safety
@@ -47,7 +47,7 @@ TECH SOLVE ENGINE positions itself as an engineering-driven technology partner (
 - **Vite** - Build tool and dev server
 - **Lucide React** - Icon library
 
-##  Installation
+## 📦 Installation
 
 ```bash
 # Install dependencies
@@ -63,7 +63,7 @@ npm run build
 npm run preview
 ```
 
-##  Deployment
+## 🌐 Deployment
 
 This project can be deployed to various platforms:
 
@@ -71,7 +71,7 @@ This project can be deployed to various platforms:
 - **Netlify**: Drag and drop the `dist` folder or connect via Git
 - **GitHub Pages**: Use GitHub Actions for automated deployment
 
-##  Project Structure
+## 📝 Project Structure
 
 ```
 tse-company-website/
@@ -89,7 +89,7 @@ tse-company-website/
 └── README.md
 ```
 
-## Key Features
+## 🎯 Key Features
 
 ### Accessibility
 - Semantic HTML5 elements
@@ -126,4 +126,4 @@ For inquiries about TECH SOLVE ENGINE services, visit the Contact page on the we
 
 ---
 
-Built using React, TypeScript, and Tailwind CSS
+Built with ❤️ using React, TypeScript, and Tailwind CSS

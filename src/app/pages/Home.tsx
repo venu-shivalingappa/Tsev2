@@ -389,7 +389,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="font-semibold text-[#2E3A44] text-sm">Fast Deployment</div>
-                    <div className="text-xs text-[#7A8792]">3–5 Year Architecture</div>
+                    <div className="text-xs text-[#7A8792]">5-7 Year Architecture</div>
                   </div>
                 </motion.div>
               </motion.div>
@@ -439,7 +439,7 @@ export default function Home() {
               { label: '20+ Years Engineering Experience', icon: Target },
               { label: 'Long-Term Client Partnerships', icon: CheckCircle2 },
               { label: 'Architecture Built for Scale', icon: Network },
-              { label: 'Businesses in India & Globally', icon: Globe },
+              { label: 'Zero Compliance Incidents', icon: Globe },
             ].map((item, index) => (
               <motion.div
                 key={item.label}

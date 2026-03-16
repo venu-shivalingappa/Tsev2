@@ -287,6 +287,7 @@ const solutions = [
 ];
 
 const connectionSteps = [
+  'Business Growth & Operations',
   'Technology Strategy',
   'Architecture Design',
   'Infrastructure & Cloud Implementation',
@@ -297,7 +298,7 @@ const connectionSteps = [
 
 const outcomes = [
   {
-    metric: '3–5 Years',
+    metric: '5–7 Years',
     title: 'Scalable Growth',
     description: 'Architecture designed to support multi-year business expansion',
   },
