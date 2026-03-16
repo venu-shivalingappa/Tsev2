@@ -88,7 +88,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-[#2E3A44] mb-0.5">Phone</p>
-                        <p className="text-[#7A8792] text-sm">+91 XXX XXX XXXX</p>
+                        <p className="text-[#7A8792] text-sm">1800 203 295 </p>
                       </div>
                     </a>
                   </li>
@@ -98,7 +98,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-[#2E3A44] mb-0.5">Location</p>
-                      <p className="text-[#7A8792] text-sm">India</p>
+                      <p className="text-[#7A8792] text-sm">#1st Floor, 2027, 60 Feet Rd, Raghuvanahalli, Bangalore City Municipal Corporation Layout, Bengaluru, Karnataka 560109</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
@@ -107,7 +107,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-[#2E3A44] mb-0.5">Office Hours</p>
-                      <p className="text-[#7A8792] text-sm">Mon–Fri, 9:00 AM – 6:00 PM IST</p>
+                      <p className="text-[#7A8792] text-sm">Mon–Fri, 9:30 AM – 6:30 PM IST</p>
                     </div>
                   </li>
                 </ul>

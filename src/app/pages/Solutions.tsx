@@ -287,11 +287,11 @@ const solutions = [
 ];
 
 const connectionSteps = [
-  'Business Growth & Operations',
+  'Business Vision',
   'Technology Strategy',
   'Architecture Design',
-  'Infrastructure & Cloud Implementation',
-  'Security & Compliance Integration',
+  'Engineering Deployment',
+  'Security & Governance',
   'DevOps & Automation',
   'Managed Operations',
 ];
